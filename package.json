@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/accountable/node-html-pdf.git"
+    "url": "git://github.com/Accountable-SA/accountable-node-html-pdf.git"
   },
   "keywords": [
     "html",
@@ -38,7 +38,7 @@
     "nodejs"
   ],
   "bugs": {
-    "url": "https://github.com/accountable/node-html-pdf/issues"
+    "url": "https://github.com/Accountable-SA/accountable-node-html-pdf/issues"
   },
-  "homepage": "https://github.com/accountable/node-html-pdf"
+  "homepage": "https://github.com/Accountable-SA/accountable-node-html-pdf"
 }
