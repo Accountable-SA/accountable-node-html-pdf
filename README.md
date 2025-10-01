@@ -1,8 +1,10 @@
 # node-html-pdf
 
-## This is a fork of the original project with the following changes [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
+## This is a fork of the original project [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
 
-The original project is now unmaintained. 3.0.1 is the last version published by Marc Bachmann.
+The original project is now unmaintained. 3.0.1 is the last version published by Marc Bachmann. Any version before that can be found on the releases page of the original repository.
+
+Changes made in this fork:
 
 - Fix edge case where PhantomJS exits with code 0 but no data is received
 - Bump version to 3.0.2
