@@ -1,4 +1,4 @@
-# node-html-pdf
+# @accountable/node-html-pdf
 
 ## This is a fork of the original project [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
 
@@ -19,7 +19,9 @@ Changes made in this fork:
 
 ## Changelog
 
-Have a look at the releases page: https://github.com/marcbachmann/node-html-pdf/releases
+Have a look at the releases page for versions prior to 3.0.2: https://github.com/marcbachmann/node-html-pdf/releases
+
+For the changelog of this fork see: https://github.com/Accountable-SA/accountable-node-html-pdf/releases
 
 ## Installation
 
