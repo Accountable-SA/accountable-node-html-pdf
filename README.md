@@ -1,13 +1,20 @@
-# @accountable/node-html-pdf
+# @accountable/html-pdf
 
-## This is a fork of the original project [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
+[![npm version](https://img.shields.io/npm/v/@accountable/html-pdf.svg)](https://www.npmjs.com/package/@accountable/html-pdf)
+
+This is a fork of the original project [marcbachmann/node-html-pdf](https://github.com/marcbachmann/node-html-pdf)
 
 The original project is now unmaintained. 3.0.1 is the last version published by Marc Bachmann. Any version before that can be found on the releases page of the original repository.
 
 Changes made in this fork:
 
-- Fix edge case where PhantomJS exits with code 0 but no data is received
-- Bump version to 3.0.2
+- Fix edge case where PhantomJS exits with code 0 but no data is received, generating a "Cannot read property 'filename' of undefined" error.
+
+## Changelog
+
+Have a look at the releases page for versions prior to 3.0.2: https://github.com/marcbachmann/node-html-pdf/releases
+
+For the changelog of this fork see: https://github.com/Accountable-SA/accountable-node-html-pdf/releases
 
 ## HTML to PDF converter that uses phantomjs
 
@@ -17,24 +24,18 @@ Changes made in this fork:
 
 [Example Receipt](http://imgr-static.s3-eu-west-1.amazonaws.com/order.pdf)
 
-## Changelog
-
-Have a look at the releases page for versions prior to 3.0.2: https://github.com/marcbachmann/node-html-pdf/releases
-
-For the changelog of this fork see: https://github.com/Accountable-SA/accountable-node-html-pdf/releases
-
 ## Installation
 
-Install the html-pdf utility via [npm](http://npmjs.org/):
+Install the @accountable/html-pdf utility via [npm](http://npmjs.org/):
 
 ```
-$ npm install -g html-pdf
+$ npm install -g @accountable/html-pdf
 ```
 
 ## Command-line example
 
 ```
-$ html-pdf test/businesscard.html businesscard.pdf
+$ @accountable/html-pdf test/businesscard.html businesscard.pdf
 ```
 
 ## Code example
